@@ -8,6 +8,17 @@ package model;
  *
  * @author Fabia
  */
-public class Camioneta {
+public class Camioneta extends Vehiculo{
+    private int capacidadCarga;
+   
+    //Constructor
+    public Camioneta() {
+    }
+    
+    //Constructor con parametros
+    public Camioneta(int capacidadCarga, String patente, String marca, String modelo, int kilometraje) {
+        super(patente, marca, modelo, kilometraje);
+        this.capacidadCarga = capacidadCarga;
+    }
     
 }

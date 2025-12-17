@@ -4,6 +4,8 @@
  */
 package examen;
 
+import controller.ControllerHome;
+
 /**
  *
  * @author Fabia
@@ -15,6 +17,8 @@ public class EXAMEN {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        ControllerHome ctrlHome = new ControllerHome();
+        ctrlHome.iniciarVista();
     }
     
 }
